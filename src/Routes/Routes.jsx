@@ -10,7 +10,12 @@ export const router = createBrowserRouter([
     Component: Root,
     errorElement: <ErrorPage></ErrorPage>,
     children:[
-
+        {
+            index: true,
+            path: '/',
+            loader: () => fetch('/trendingApps.json'),
+            Component: Home
+        }
     ]
   },
 ]);

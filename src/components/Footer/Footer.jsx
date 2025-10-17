@@ -35,13 +35,13 @@ const Footer = () => {
                 </nav>
                 <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                     <a>
-                       <img src={x} alt="" />
+                       <img className='hover:cursor-pointer' src={x} alt="" />
                     </a>
                     <a>
-                        <img src={linkedIn} alt="" />
+                        <img className='hover:cursor-pointer' src={linkedIn} alt="" />
                     </a>
                     <a>
-                        <img src={fb} alt="" />
+                        <img className='hover:cursor-pointer' src={fb} alt="" />
                     </a>
                 </nav>
             </footer>
