@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/2-t0KfNGWFSpSno4DKtaoFwlX9Sjw28WOqtInRYqFem3o-o2dTeLtek1_ZQpvi0-6g=w480-h960-rw",
+    "title": "PhotoGuru Pro",
+    "companyName": "PixelPerfect Studios",
+    "id": 1,
+    "description": "PhotoGuru Pro is a comprehensive photo editing application that offers professional-grade tools for both amateur and professional photographers. Featuring advanced AI-powered filters, precise color correction, layer-based editing, and hundreds of creative effects. The app supports RAW file editing and includes tutorials for mastering photography techniques. With its intuitive interface and powerful capabilities, you can transform ordinary photos into stunning visual masterpieces.",
+    "size": 245,
+    "reviews": 125000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 37500 },
+      { "name": "5 star", "count": 65000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/SfWMASrfhfqfjNLjmaM2ypEmlewHbPEzD_sv08zteTGWIPpc0oSgEMb2lRflJA5Cgw",
+    "title": "FitLife Tracker",
+    "companyName": "HealthTech Solutions",
+    "id": 2,
+    "description": "FitLife Tracker is your ultimate fitness companion that monitors workouts, nutrition, sleep patterns, and overall health metrics. The app integrates with popular wearables and offers personalized workout plans, calorie tracking, water intake monitoring, and social challenges. With detailed analytics and progress reports, you can set achievable goals and track your fitness journey with precision and motivation.",
+    "size": 189,
+    "reviews": 89000,
+    "ratingAvg": 4.5,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 4450 },
+      { "name": "2 star", "count": 4450 },
+      { "name": "3 star", "count": 13350 },
+      { "name": "4 star", "count": 31150 },
+      { "name": "5 star", "count": 35600 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/yCCy-ZJQUVDaTxEVLCwvYY5f6Z8kIFMdYPg8ADFk0BJdHN5tORzDhDUuHED32TmMNg=w240-h480-rw",
+    "title": "MindSpace Meditation",
+    "companyName": "ZenTech Wellness",
+    "id": 6,
+    "description": "MindSpace Meditation offers guided meditation sessions, sleep stories, breathing exercises, and mindfulness practices designed to reduce stress and improve mental wellbeing. The app features personalized meditation plans, progress tracking, ambient sounds, and expert-led courses on various meditation techniques. Daily reminders and community challenges help establish consistent mindfulness practices for long-term mental health benefits.",
+    "size": 167,
+    "reviews": 92000,
+    "ratingAvg": 4.9,
+    "downloads": 22000000,
+    "ratings": [
+      { "name": "1 star", "count": 920 },
+      { "name": "2 star", "count": 1840 },
+      { "name": "3 star", "count": 5520 },
+      { "name": "4 star", "count": 27600 },
+      { "name": "5 star", "count": 56120 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbyHmjS3bScryoyzA4ryHLFRxHaWrf1oWrJA&s",
+    "title": "LanguageMaster Pro",
+    "companyName": "GlobalConnect Education",
+    "id": 7,
+    "description": "LanguageMaster Pro makes learning new languages engaging and effective through interactive lessons, speech recognition technology, and real-life conversation practice. The app covers vocabulary, grammar, pronunciation, and cultural context across 30+ languages. Adaptive learning algorithms personalize your study path, while games and challenges keep motivation high. Offline mode allows continuous learning without internet connectivity.",
+    "size": 312,
+    "reviews": 156000,
+    "ratingAvg": 4.6,
+    "downloads": 45000000,
+    "ratings": [
+      { "name": "1 star", "count": 7800 },
+      { "name": "2 star", "count": 9360 },
+      { "name": "3 star", "count": 23400 },
+      { "name": "4 star", "count": 54600 },
+      { "name": "5 star", "count": 60840 }
+    ]
+  },
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.64546.9007199266535063.c83c03a9-5e65-40e8-9595-97f7057c6cfc.349cc411-2761-4d8b-b2df-88b70885cbc7?h=210",
+    "title": "RecipeBox Chef",
+    "companyName": "Culinary Creations Inc",
+    "id": 5,
+    "description": "RecipeBox Chef is a comprehensive cooking application featuring thousands of recipes from professional chefs and home cooks worldwide. The app includes step-by-step video tutorials, ingredient substitution suggestions, nutritional information, and meal planning tools. Smart shopping lists, cooking timers, and dietary preference filters make meal preparation efficient and enjoyable for cooks of all skill levels.",
+    "size": 198,
+    "reviews": 78000,
+    "ratingAvg": 4.8,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 1560 },
+      { "name": "2 star", "count": 2340 },
+      { "name": "3 star", "count": 7800 },
+      { "name": "4 star", "count": 27300 },
+      { "name": "5 star", "count": 39000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/rWWb2gQZNBmL2wBqHX4fTHmLw0H3nlxblIW4JMcQgYdEG8SX5blGfx06-NG5va2Ke8cj=w480-h960-rw",
+    "title": "WeatherPro Global",
+    "companyName": "ClimateData Systems",
+    "id": 14,
+    "description": "WeatherPro Global delivers hyper-local weather forecasts, severe weather alerts, and detailed meteorological data with stunning visualizations. The app includes hourly and 10-day forecasts, precipitation radar, satellite imagery, and historical weather data. Customizable widgets, multiple location tracking, and weather maps provide comprehensive weather information for planning activities, travel, and staying safe in changing conditions.",
+    "size": 156,
+    "reviews": 189000,
+    "ratingAvg": 4.2,
+    "downloads": 52000000,
+    "ratings": [
+      { "name": "1 star", "count": 15120 },
+      { "name": "2 star", "count": 28350 },
+      { "name": "3 star", "count": 56700 },
+      { "name": "4 star", "count": 66150 },
+      { "name": "5 star", "count": 22680 }
+    ]
+  },
+  {
+    "image": "https://notebookforu.in/logo.png",
+    "title": "NoteSync Pro",
+    "companyName": "Productivity Labs",
+    "id": 15,
+    "description": "NoteSync Pro is a powerful note-taking application that synchronizes across all your devices with advanced organization features. The app supports text notes, checklists, voice recordings, sketches, and document scanning. Robust search capabilities, tags, notebooks, and collaboration tools make information management efficient. End-to-end encryption ensures your notes remain private and secure while accessible whenever inspiration strikes.",
+    "size": 203,
+    "reviews": 95000,
+    "ratingAvg": 4.7,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 2850 },
+      { "name": "2 star", "count": 4750 },
+      { "name": "3 star", "count": 14250 },
+      { "name": "4 star", "count": 33250 },
+      { "name": "5 star", "count": 39900 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/png-vector/20220127/ourmid/pngtree-big-isolated-motorcycle-vector-colorful-icons-flat-illustrations-of-delivery-by-png-image_4366928.png",
+    "title": "QuickDeliver Food",
+    "companyName": "Delivery Express",
+    "id": 18,
+    "description": "QuickDeliver Food connects you with hundreds of local restaurants for fast food delivery and pickup. The app features real-time order tracking, personalized recommendations, dietary filters, and secure payment options. Loyalty rewards, group ordering, and scheduled deliveries make meal planning convenient. Restaurant ratings and detailed menu information help you make informed choices for every craving and occasion.",
+    "size": 167,
+    "reviews": 245000,
+    "ratingAvg": 4.1,
+    "downloads": 68000000,
+    "ratings": [
+      { "name": "1 star", "count": 36750 },
+      { "name": "2 star", "count": 49000 },
+      { "name": "3 star", "count": 73500 },
+      { "name": "4 star", "count": 61250 },
+      { "name": "5 star", "count": 24500 }
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/2-t0KfNGWFSpSno4DKtaoFwlX9Sjw28WOqtInRYqFem3o-o2dTeLtek1_ZQpvi0-6g=w480-h960-rw",
+    "title": "PhotoGuru Pro",
+    "companyName": "PixelPerfect Studios",
+    "id": 1,
+    "description": "PhotoGuru Pro is a comprehensive photo editing application that offers professional-grade tools for both amateur and professional photographers. Featuring advanced AI-powered filters, precise color correction, layer-based editing, and hundreds of creative effects. The app supports RAW file editing and includes tutorials for mastering photography techniques. With its intuitive interface and powerful capabilities, you can transform ordinary photos into stunning visual masterpieces.",
+    "size": 245,
+    "reviews": "125K",
+    "ratingAvg": 4.7,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 37500 },
+      { "name": "5 star", "count": 65000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/SfWMASrfhfqfjNLjmaM2ypEmlewHbPEzD_sv08zteTGWIPpc0oSgEMb2lRflJA5Cgw",
+    "title": "FitLife Tracker",
+    "companyName": "HealthTech Solutions",
+    "id": 2,
+    "description": "FitLife Tracker is your ultimate fitness companion that monitors workouts, nutrition, sleep patterns, and overall health metrics. The app integrates with popular wearables and offers personalized workout plans, calorie tracking, water intake monitoring, and social challenges. With detailed analytics and progress reports, you can set achievable goals and track your fitness journey with precision and motivation.",
+    "size": 189,
+    "reviews": "89K",
+    "ratingAvg": 4.5,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 4450 },
+      { "name": "2 star", "count": 4450 },
+      { "name": "3 star", "count": 13350 },
+      { "name": "4 star", "count": 31150 },
+      { "name": "5 star", "count": 35600 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/data-analysis-business-finance-technology-infographic-illustration-3d-flat-isometric_18660-6402.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "FinanceMaster",
+    "companyName": "MoneyWise Technologies",
+    "id": 3,
+    "description": "FinanceMaster is a powerful financial management tool that helps you take control of your money. Features include budget planning, expense categorization, bill reminders, investment tracking, and financial goal setting. The app provides detailed charts and reports to analyze spending patterns and offers insights for better financial decisions. Bank-level security ensures your financial data remains protected at all times.",
+    "size": 156,
+    "reviews": "67K",
+    "ratingAvg": 4.6,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 2010 },
+      { "name": "2 star", "count": 3350 },
+      { "name": "3 star", "count": 10050 },
+      { "name": "4 star", "count": 23450 },
+      { "name": "5 star", "count": 28140 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/qzd5vlydFBIqYusKaQbrHSBsXPM4yi5kHuuspRPu-fTyw7bFwvthksMiSEGY1cUcJuw",
+    "title": "TravelBuddy",
+    "companyName": "Wanderlust Apps",
+    "id": 4,
+    "description": "TravelBuddy revolutionizes trip planning with intelligent itinerary creation, real-time flight tracking, hotel comparisons, and local experience recommendations. The app features offline maps, currency converters, language translation tools, and safety alerts for travelers. Community reviews and photos help you discover hidden gems and avoid tourist traps while exploring new destinations around the world.",
+    "size": 278,
+    "reviews": "45K",
+    "ratingAvg": 4.4,
+    "downloads": "100K",
+    "ratings": [
+      { "name": "1 star", "count": 2250 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 15750 },
+      { "name": "5 star", "count": 13500 }
+    ]
+  },
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.64546.9007199266535063.c83c03a9-5e65-40e8-9595-97f7057c6cfc.349cc411-2761-4d8b-b2df-88b70885cbc7?h=210",
+    "title": "RecipeBox Chef",
+    "companyName": "Culinary Creations Inc",
+    "id": 5,
+    "description": "RecipeBox Chef is a comprehensive cooking application featuring thousands of recipes from professional chefs and home cooks worldwide. The app includes step-by-step video tutorials, ingredient substitution suggestions, nutritional information, and meal planning tools. Smart shopping lists, cooking timers, and dietary preference filters make meal preparation efficient and enjoyable for cooks of all skill levels.",
+    "size": 198,
+    "reviews": "78K",
+    "ratingAvg": 4.8,
+    "downloads": "780k",
+    "ratings": [
+      { "name": "1 star", "count": 1560 },
+      { "name": "2 star", "count": 2340 },
+      { "name": "3 star", "count": 7800 },
+      { "name": "4 star", "count": 27300 },
+      { "name": "5 star", "count": 39000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/yCCy-ZJQUVDaTxEVLCwvYY5f6Z8kIFMdYPg8ADFk0BJdHN5tORzDhDUuHED32TmMNg=w240-h480-rw",
+    "title": "MindSpace Meditation",
+    "companyName": "ZenTech Wellness",
+    "id": 6,
+    "description": "MindSpace Meditation offers guided meditation sessions, sleep stories, breathing exercises, and mindfulness practices designed to reduce stress and improve mental wellbeing. The app features personalized meditation plans, progress tracking, ambient sounds, and expert-led courses on various meditation techniques. Daily reminders and community challenges help establish consistent mindfulness practices for long-term mental health benefits.",
+    "size": 167,
+    "reviews": "92K",
+    "ratingAvg": 4.9,
+    "downloads": "220K",
+    "ratings": [
+      { "name": "1 star", "count": 920 },
+      { "name": "2 star", "count": 1840 },
+      { "name": "3 star", "count": 5520 },
+      { "name": "4 star", "count": 27600 },
+      { "name": "5 star", "count": 56120 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbyHmjS3bScryoyzA4ryHLFRxHaWrf1oWrJA&s",
+    "title": "LanguageMaster Pro",
+    "companyName": "GlobalConnect Education",
+    "id": 7,
+    "description": "LanguageMaster Pro makes learning new languages engaging and effective through interactive lessons, speech recognition technology, and real-life conversation practice. The app covers vocabulary, grammar, pronunciation, and cultural context across 30+ languages. Adaptive learning algorithms personalize your study path, while games and challenges keep motivation high. Offline mode allows continuous learning without internet connectivity.",
+    "size": 312,
+    "reviews": "15.6K",
+    "ratingAvg": 4.6,
+    "downloads": "980K",
+    "ratings": [
+      { "name": "1 star", "count": 7800 },
+      { "name": "2 star", "count": 9360 },
+      { "name": "3 star", "count": 23400 },
+      { "name": "4 star", "count": 54600 },
+      { "name": "5 star", "count": 60840 }
+    ]
+  },
+  {
+    "image": "https://s3.amazonaws.com/thumbnails.venngage.com/template/4f75dd4f-0c29-4151-8455-97dcaadb32b3.png",
+    "title": "MusicFlow Studio",
+    "companyName": "AudioInnovate Labs",
+    "id": 8,
+    "description": "MusicFlow Studio is a professional mobile music production suite featuring multi-track recording, virtual instruments, effects processors, and mixing tools. The app supports MIDI controllers and offers thousands of royalty-free samples and loops. Whether you're a beginner learning music production or a professional creating on-the-go, MusicFlow provides studio-quality results with an intuitive touch-based interface optimized for mobile devices.",
+    "size": 423,
+    "reviews": "34K",
+    "ratingAvg": 4.3,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 2380 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 6800 },
+      { "name": "4 star", "count": 11900 },
+      { "name": "5 star", "count": 9520 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/WYQ-iNSXt2twABwWZDZ0wia0MpnPzQencaFcJYMMfbutazd5U5bGJufmU8ohQz-K0FIM=w240-h480-rw",
+    "title": "PlantCare Assistant",
+    "companyName": "GreenThumb Apps",
+    "id": 9,
+    "description": "PlantCare Assistant helps gardening enthusiasts identify plants, diagnose problems, and provide proper care instructions. The app includes watering schedules, fertilization reminders, seasonal care tips, and a community forum for plant lovers. Advanced image recognition can identify over 20,000 plant species and detect common diseases or pest infestations, offering treatment recommendations to keep your plants healthy and thriving.",
+    "size": 145,
+    "reviews": "28K",
+    "ratingAvg": 4.7,
+    "downloads": "650K",
+    "ratings": [
+      { "name": "1 star", "count": 840 },
+      { "name": "2 star", "count": 1120 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 12040 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDTJizEsvoh2YadjA-2ST6bl1YU8l0QavC-Q&s",
+    "title": "WorkoutPlus",
+    "companyName": "FitTech Innovations",
+    "id": 10,
+    "description": "WorkoutPlus delivers personalized fitness programs with HD video demonstrations, form correction technology, and adaptive workout plans based on your progress and goals. The app includes strength training, cardio, yoga, stretching routines, and specialized programs for specific fitness objectives. Integration with health apps and wearable devices provides comprehensive activity tracking and performance analytics for optimal results.",
+    "size": 267,
+    "reviews": "11.2K",
+    "ratingAvg": 4.5,
+    "downloads": "280K",
+    "ratings": [
+      { "name": "1 star", "count": 5600 },
+      { "name": "2 star", "count": 8960 },
+      { "name": "3 star", "count": 20160 },
+      { "name": "4 star", "count": 39200 },
+      { "name": "5 star", "count": 38080 }
+    ]
+  },
+  {
+    "image": "https://mefinancial.co.uk/wp-content/uploads/2023/11/STAMP-DUTY.png",
+    "title": "BudgetPlanner Pro",
+    "companyName": "FinanceSimple Corp",
+    "id": 11,
+    "description": "BudgetPlanner Pro simplifies personal finance management with intelligent budgeting tools, bill payment tracking, savings goals, and debt reduction strategies. The app automatically categorizes transactions, detects subscription services, and provides spending alerts to prevent overspending. Detailed financial reports and forecasting tools help you understand your financial health and make informed decisions for long-term financial stability.",
+    "size": 134,
+    "reviews": "43K",
+    "ratingAvg": 4.4,
+    "downloads": "163K",
+    "ratings": [
+      { "name": "1 star", "count": 2150 },
+      { "name": "2 star", "count": 4300 },
+      { "name": "3 star", "count": 8600 },
+      { "name": "4 star", "count": 15050 },
+      { "name": "5 star", "count": 12900 }
+    ]
+  },
+  {
+    "image": "https://image.spreadshirtmedia.com/image-server/v1/products/T1459A839PA3861PT28X0Y0D1055322139W10000H10000/views/1,width=378,height=378,appearanceId=839,backgroundColor=F2F2F2/study-time-clock-fun-desk-decor-with-clock.jpg",
+    "title": "StudyTime Academy",
+    "companyName": "EduTech Solutions",
+    "id": 12,
+    "description": "StudyTime Academy offers comprehensive educational content across multiple subjects with interactive lessons, practice tests, and progress tracking. The app features adaptive learning technology that identifies knowledge gaps and creates personalized study plans. Flashcards, quizzes, and educational games make learning engaging, while offline access ensures continuous study opportunities regardless of internet availability.",
+    "size": 289,
+    "reviews": "67K",
+    "ratingAvg": 4.6,
+    "downloads": "100K",
+    "ratings": [
+      { "name": "1 star", "count": 2010 },
+      { "name": "2 star", "count": 3350 },
+      { "name": "3 star", "count": 10050 },
+      { "name": "4 star", "count": 23450 },
+      { "name": "5 star", "count": 28140 }
+    ]
+  },
+  {
+    "image": "https://images.seeklogo.com/logo-png/53/1/sleepwell-logo-png_seeklogo-536675.png",
+    "title": "SleepWell Tracker",
+    "companyName": "Restful Technologies",
+    "id": 13,
+    "description": "SleepWell Tracker monitors sleep patterns, provides personalized recommendations for better sleep, and features relaxing sounds and bedtime stories. The app analyzes sleep cycles, tracks snoring, and offers insights into factors affecting sleep quality. Smart alarms wake you during light sleep phases for more refreshed mornings, while sleep trends and improvement suggestions help establish healthier sleep habits over time.",
+    "size": 178,
+    "reviews": "54K",
+    "ratingAvg": 4.3,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 3780 },
+      { "name": "2 star", "count": 5400 },
+      { "name": "3 star", "count": 10800 },
+      { "name": "4 star", "count": 18900 },
+      { "name": "5 star", "count": 15120 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/rWWb2gQZNBmL2wBqHX4fTHmLw0H3nlxblIW4JMcQgYdEG8SX5blGfx06-NG5va2Ke8cj=w480-h960-rw",
+    "title": "WeatherPro Global",
+    "companyName": "ClimateData Systems",
+    "id": 14,
+    "description": "WeatherPro Global delivers hyper-local weather forecasts, severe weather alerts, and detailed meteorological data with stunning visualizations. The app includes hourly and 10-day forecasts, precipitation radar, satellite imagery, and historical weather data. Customizable widgets, multiple location tracking, and weather maps provide comprehensive weather information for planning activities, travel, and staying safe in changing conditions.",
+    "size": 156,
+    "reviews": "1.89K",
+    "ratingAvg": 4.2,
+    "downloads": "120K",
+    "ratings": [
+      { "name": "1 star", "count": 15120 },
+      { "name": "2 star", "count": 28350 },
+      { "name": "3 star", "count": 56700 },
+      { "name": "4 star", "count": 66150 },
+      { "name": "5 star", "count": 22680 }
+    ]
+  },
+  {
+    "image": "https://notebookforu.in/logo.png",
+    "title": "NoteSync Pro",
+    "companyName": "Productivity Labs",
+    "id": 15,
+    "description": "NoteSync Pro is a powerful note-taking application that synchronizes across all your devices with advanced organization features. The app supports text notes, checklists, voice recordings, sketches, and document scanning. Robust search capabilities, tags, notebooks, and collaboration tools make information management efficient. End-to-end encryption ensures your notes remain private and secure while accessible whenever inspiration strikes.",
+    "size": 203,
+    "reviews": "95K",
+    "ratingAvg": 4.7,
+    "downloads": "670K",
+    "ratings": [
+      { "name": "1 star", "count": 2850 },
+      { "name": "2 star", "count": 4750 },
+      { "name": "3 star", "count": 14250 },
+      { "name": "4 star", "count": 33250 },
+      { "name": "5 star", "count": 39900 }
+    ]
+  },
+  {
+    "image": "https://pbs.twimg.com/profile_images/1420952349833576450/wFlepCZL_400x400.jpg",
+    "title": "GameHub Arcade",
+    "companyName": "Entertainment Studios",
+    "id": 16,
+    "description": "GameHub Arcade offers a collection of premium mobile games without ads or in-app purchases. The service includes puzzle games, action adventures, strategy titles, and casual games updated monthly. Cloud saving, controller support, and family sharing provide premium gaming experiences. Curated collections and personalized recommendations help discover new favorites from an ever-expanding library of high-quality mobile games.",
+    "size": 367,
+    "reviews": "123K",
+    "ratingAvg": 4.4,
+    "downloads": "489K",
+    "ratings": [
+      { "name": "1 star", "count": 9840 },
+      { "name": "2 star", "count": 14760 },
+      { "name": "3 star", "count": 30750 },
+      { "name": "4 star", "count": 43050 },
+      { "name": "5 star", "count": 24600 }
+    ]
+  },
+  {
+    "image": "https://images.seeklogo.com/logo-png/48/1/art-studio-logo-png_seeklogo-483531.png",
+    "title": "ArtStudio Digital",
+    "companyName": "Creative Tools Inc",
+    "id": 17,
+    "description": "ArtStudio Digital brings professional digital art creation to mobile devices with advanced brushes, layers, filters, and drawing tools. The app supports pressure-sensitive styluses and offers a complete toolkit for digital painting, illustration, and photo manipulation. With extensive export options, tutorial integration, and a vibrant creative community, artists can create, learn, and share their work seamlessly across platforms.",
+    "size": 298,
+    "reviews": "38K",
+    "ratingAvg": 4.8,
+    "downloads": "123K",
+    "ratings": [
+      { "name": "1 star", "count": 760 },
+      { "name": "2 star", "count": 1140 },
+      { "name": "3 star", "count": 4560 },
+      { "name": "4 star", "count": 13300 },
+      { "name": "5 star", "count": 18240 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/png-vector/20220127/ourmid/pngtree-big-isolated-motorcycle-vector-colorful-icons-flat-illustrations-of-delivery-by-png-image_4366928.png",
+    "title": "QuickDeliver Food",
+    "companyName": "Delivery Express",
+    "id": 18,
+    "description": "QuickDeliver Food connects you with hundreds of local restaurants for fast food delivery and pickup. The app features real-time order tracking, personalized recommendations, dietary filters, and secure payment options. Loyalty rewards, group ordering, and scheduled deliveries make meal planning convenient. Restaurant ratings and detailed menu information help you make informed choices for every craving and occasion.",
+    "size": 167,
+    "reviews": "245K",
+    "ratingAvg": 4.1,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 36750 },
+      { "name": "2 star", "count": 49000 },
+      { "name": "3 star", "count": 73500 },
+      { "name": "4 star", "count": 61250 },
+      { "name": "5 star", "count": 24500 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/png-clipart/20200701/original/pngtree-hand-drawn-cartoon-polygon-library-bookshelf-illustration-png-image_5357151.jpg",
+    "title": "ReaderSpace",
+    "companyName": "BookLovers Digital",
+    "id": 19,
+    "description": "ReaderSpace is a comprehensive ebook reader and digital library management system with access to millions of titles. The app offers customizable reading interfaces, annotation tools, vocabulary builders, and reading progress tracking. Social features allow sharing highlights and joining book clubs, while recommendation algorithms suggest new titles based on reading preferences. Sync across devices ensures your reading journey remains continuous and organized.",
+    "size": 234,
+    "reviews": "72K",
+    "ratingAvg": 4.5,
+    "downloads": "760K",
+    "ratings": [
+      { "name": "1 star", "count": 3600 },
+      { "name": "2 star", "count": 5760 },
+      { "name": "3 star", "count": 12960 },
+      { "name": "4 star", "count": 25200 },
+      { "name": "5 star", "count": 24480 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2029/2029791.png",
+    "title": "HomeSecure Pro",
+    "companyName": "SmartHome Technologies",
+    "id": 20,
+    "description": "HomeSecure Pro integrates with smart home devices to provide comprehensive home monitoring and automation. The app features live camera feeds, motion detection alerts, remote lock control, and energy usage monitoring. Customizable automation routines, geofencing, and voice assistant compatibility create a seamless smart home experience. Advanced security features including activity logs and emergency contact integration ensure your home remains protected and efficiently managed.",
+    "size": 289,
+    "reviews": "51K",
+    "ratingAvg": 4.6,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": 1530 },
+      { "name": "2 star", "count": 2550 },
+      { "name": "3 star", "count": 7650 },
+      { "name": "4 star", "count": 17850 },
+      { "name": "5 star", "count": 21420 }
+    ]
+  }
+]
