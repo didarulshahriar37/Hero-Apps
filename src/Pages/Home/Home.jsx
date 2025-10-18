@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import Apps from '../Apps/Apps';
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
                     <Apps data={data}></Apps>
                 </div>
                 <div className='text-center'>
-                    <button className='btn w-36 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold'>Show All</button>
+                    <Link to='/apps'><button className='btn w-36 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold'>Show All</button></Link>
                 </div>
             </div>
         </div>
