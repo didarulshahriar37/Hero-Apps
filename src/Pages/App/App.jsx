@@ -20,7 +20,7 @@ const App = ({ singleApp }) => {
                         {title}
                     </h2>
                     <div className="card-actions justify-between">
-                        <div className="badge bg-[#F1F5E8] text-[#00D390] font-semibold"><img className='w-3 h-3' src={downloadImg} alt="" /> {downloads}</div>
+                        <div className="badge bg-[#F1F5E8] text-[#00D390] font-semibold"><img className='w-3 h-3' src={downloadImg} alt="" /> {downloads} M</div>
                         <div className="badge bg-[#FFF0E1] text-[#FF8811] font-semibold"><img className='w-3 h-3' src={ratingImg} alt="" /> {ratingAvg}</div>
                     </div>
                 </div>
