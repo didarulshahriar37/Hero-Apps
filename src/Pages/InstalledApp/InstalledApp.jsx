@@ -1,8 +1,28 @@
 import React from 'react';
 import downloadIcon from '../../assets/icon_downloads.png';
 import ratingIcon from '../../assets/icon_ratings.png';
+import { deleteFromLocalStorage } from '../../Utilities/deleteFromLocalStorage';
+import { Bounce, toast } from 'react-toastify';
 
-const InstalledApp = ({ singleApp }) => {
+const InstalledApp = ({ singleApp, handleUninstallApp }) => {
+
+    const handleUninstall = () => {
+        deleteFromLocalStorage(singleApp.id);
+        toast.success(`App: ${singleApp.title} Uninstalled Successfully!`, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            transition: Bounce,
+        });
+        handleUninstallApp(singleApp.id);
+
+    }
+
     return (
         <div className='bg-white p-4 rounded-xl shadow-lg mb-4'>
             <div className='flex justify-between items-center'>
@@ -28,7 +48,7 @@ const InstalledApp = ({ singleApp }) => {
                     </div>
                 </div>
                 <div>
-                    <button className='btn bg-[#00D390] text-white'>Uninstall</button>
+                    <button onClick={handleUninstall} className='btn bg-[#00D390] text-white'>Uninstall</button>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@ import downloadImg from '../../assets/icon_downloads.png';
 import ratingImg from '../../assets/icon_ratings.png';
 import { Link } from 'react-router';
 
-const App = ({ singleApp }) => {
+const SingleApp = ({ singleApp }) => {
 
     const { id, image, title, ratingAvg, downloads } = singleApp;
 
@@ -29,4 +29,4 @@ const App = ({ singleApp }) => {
     );
 };
 
-export default App;
+export default SingleApp;

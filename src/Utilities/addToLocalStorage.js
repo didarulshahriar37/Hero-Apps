@@ -13,11 +13,13 @@ const getStoredApp = () =>{
 const addToLocalStorage = (id) =>{
     const storedAppData = getStoredApp();
 
-    if(storedAppData.includes(id)){
+    const appId = parseInt(id);
+
+    if(storedAppData.includes(appId)){
         return;
     }
     else{
-        storedAppData.push(id);
+        storedAppData.push(appId);
         const data = JSON.stringify(storedAppData);
         localStorage.setItem("installed", data);
     }

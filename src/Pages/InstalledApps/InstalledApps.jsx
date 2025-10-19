@@ -3,6 +3,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { useLoaderData } from 'react-router';
 import { getStoredApp } from '../../Utilities/addToLocalStorage';
 import InstalledApp from '../InstalledApp/InstalledApp';
+import { deleteFromLocalStorage } from '../../Utilities/deleteFromLocalStorage';
 
 const InstalledApps = () => {
 
@@ -14,21 +15,27 @@ const InstalledApps = () => {
     const handleSort = (type) =>{
         setSort(type);
         if (type === "lowToHigh"){
-            const sortedLowToHigh = [...installed].sort((a, b) => a.size - b.size);
+            const sortedLowToHigh = [...installed].sort((a, b) => a.downloads - b.downloads);
             setInstalled(sortedLowToHigh);
         }
         if (type === "highToLow"){
-            const sortedHighToLow = [...installed].sort((a, b) => b.size - a.size);
+            const sortedHighToLow = [...installed].sort((a, b) => b.downloads - a.downloads);
             setInstalled(sortedHighToLow);
         }
     }
 
     useEffect(()=>{
         const storedAppData = getStoredApp();
-        const convertedStoredApps = storedAppData.map(id => parseInt(id));
-        const installedList = data.filter(app => convertedStoredApps.includes(app.id));
+        // const convertedStoredApps = storedAppData.map(id => parseInt(id));
+        const installedList = data.filter(app => storedAppData.includes(app.id));
         setInstalled(installedList);
-    }, [])
+    }, [data]);
+
+    const handleUninstallApp = (id) =>{
+        const updatedInstalledApps = installed.filter(app => app.id !== id);
+        setInstalled(updatedInstalledApps);
+        deleteFromLocalStorage(id);
+    } 
 
     return (
         <div className='bg-base-200'>
@@ -49,7 +56,7 @@ const InstalledApps = () => {
                 </div>
                 <div className='mb-4'>
                     {
-                        installed.map(a => <InstalledApp key={a.id} singleApp={a}></InstalledApp>)
+                        installed.map(a => <InstalledApp key={a.id} singleApp={a} handleUninstallApp={handleUninstallApp}></InstalledApp>)
                     }
                 </div>
             </div>

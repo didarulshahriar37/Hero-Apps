@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import { useLoaderData } from 'react-router';
 import { GridLoader } from 'react-spinners';
 
-const App = lazy(() => import('../App/App'));
+const SingleApp = lazy(() => import('../SingleApp/SingleApp'));
 
 const AppsPage = () => {
 
@@ -24,7 +24,7 @@ const AppsPage = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                     <Suspense fallback={<div className='mx-auto'><GridLoader></GridLoader></div>}>
                         {
-                            data.map(singleApp => <App key={singleApp.id} singleApp={singleApp}></App>)
+                            data.map(singleApp => <SingleApp key={singleApp.id} singleApp={singleApp}></SingleApp>)
                         }
                     </Suspense>
                 </div>

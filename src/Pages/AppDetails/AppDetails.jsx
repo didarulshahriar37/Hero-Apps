@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadImg from '../../assets/icon_downloads.png';
 import ratingImg from '../../assets/icon_ratings.png';
 import revImg from '../../assets/icon_review.png';
 import AppNotFound from '../AppNotFound/AppNotFound';
-import { addToLocalStorage } from '../../Utilities/addToLocalStorage';
-import { toast } from 'react-toastify';
+import { addToLocalStorage, getStoredApp } from '../../Utilities/addToLocalStorage';
+import { Bounce, toast } from 'react-toastify';
 
 const AppDetails = () => {
 
@@ -16,16 +16,35 @@ const AppDetails = () => {
     const data = useLoaderData();
     // console.log(data);
     const singleApp = data.find(app => app.id === appId);
-    console.log(singleApp);
+    // console.log(singleApp);
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads } = singleApp || {};
-    
-    const handleInstalledApp = (id) =>{
+
+    useEffect(() => {
+        const storedApp = getStoredApp();
+        if (storedApp.includes(appId)) {
+            setStatus(false);
+        }
+    }, [appId])
+
+    const handleInstalledApp = (id) => {
         addToLocalStorage(id);
-        toast(`${singleApp.title} installed succesfully !`);
+        if (status === true) {
+            toast.success(`App: ${singleApp.title} Installed Successfully!`, {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                transition: Bounce,
+            });
+        }
         setStatus(false);
     }
 
-    if(!singleApp){
+    if (!singleApp) {
         return <AppNotFound></AppNotFound>
     }
 
@@ -60,7 +79,7 @@ const AppDetails = () => {
                         </div>
                         <div className='text-center md:text-start'>
                             {
-                                status === true? <button onClick={() => handleInstalledApp(id)} className='btn bg-[#00D390] h-[52px] mb-10'><p className='text-white text-xl p-4'>Install Now ({size} MB)</p></button> : <button onClick={() => handleInstalledApp(id)} className='bg-[#22d39b] rounded-xl mb-10'><p className='text-white text-xl p-4'>Installed</p></button>
+                                status === true ? <button onClick={() => handleInstalledApp(id)} className='btn bg-[#00D390] h-[52px] mb-10'><p className='text-white text-xl p-4'>Install Now ({size} MB)</p></button> : <button onClick={() => handleInstalledApp(id)} className='bg-[#22d39b] rounded-xl mb-10'><p className='text-white text-xl p-4'>Installed</p></button>
                             }
                         </div>
                     </div>
