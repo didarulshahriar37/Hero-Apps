@@ -1,2 +1,2 @@
 ## Live Site Link:
-[Hero.io]('https://hero-io-d7.netlify.app/')
+[Hero-IO]('https://hero-io-d7.netlify.app/')
