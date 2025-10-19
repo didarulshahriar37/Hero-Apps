@@ -6,6 +6,7 @@ import revImg from '../../assets/icon_review.png';
 import AppNotFound from '../AppNotFound/AppNotFound';
 import { addToLocalStorage, getStoredApp } from '../../Utilities/addToLocalStorage';
 import { Bounce, toast } from 'react-toastify';
+import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const AppDetails = () => {
 
@@ -14,10 +15,14 @@ const AppDetails = () => {
     const { id } = useParams();
     const appId = parseInt(id);
     const data = useLoaderData();
-    // console.log(data);
     const singleApp = data.find(app => app.id === appId);
-    // console.log(singleApp);
-    const { image, title, companyName, description, size, reviews, ratingAvg, downloads } = singleApp || {};
+    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = singleApp || {};
+
+    // For Bar Chart
+    const barChartData = ratings.map(rating => ({
+        name: rating.name,
+        count: rating.count,
+    }));
 
     useEffect(() => {
         const storedApp = getStoredApp();
@@ -82,6 +87,22 @@ const AppDetails = () => {
                                 status === true ? <button onClick={() => handleInstalledApp(id)} className='btn bg-[#00D390] h-[52px] mb-10'><p className='text-white text-xl p-4'>Install Now ({size} MB)</p></button> : <button onClick={() => handleInstalledApp(id)} className='bg-[#22d39b] rounded-xl mb-10'><p className='text-white text-xl p-4'>Installed</p></button>
                             }
                         </div>
+                    </div>
+                </div>
+                <div className='border-b-2 border-gray-300'>
+                    <h2 className='text-2xl font-semibold mt-10 mb-6'>Ratings</h2>
+                    <div className='mb-10'>
+                        <ResponsiveContainer width="100%" aspect={1.95}>
+                            <BarChart data={barChartData} layout='vertical' margin={{ top: 0, right: 30, left: 0, bottom: 0 }}
+                            >
+                                <CartesianGrid stroke='none'/>
+                                <XAxis type='number'/>
+                                <YAxis type='category' dataKey='name' />
+                                <Tooltip />
+                                <Legend />
+                                <Bar barSize={20} dataKey="count" fill="#FF8811" />
+                            </BarChart>
+                        </ResponsiveContainer>
                     </div>
                 </div>
                 <div>

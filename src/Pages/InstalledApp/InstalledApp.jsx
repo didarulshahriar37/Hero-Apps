@@ -25,8 +25,8 @@ const InstalledApp = ({ singleApp, handleUninstallApp }) => {
 
     return (
         <div className='bg-white p-4 rounded-xl shadow-lg mb-4'>
-            <div className='flex justify-between items-center'>
-                <div className='flex items-center gap-4'>
+            <div className='flex flex-col md:flex-row gap-3 md:gap-0 justify-between items-center'>
+                <div className='flex items-center md:gap-4 gap-15'>
                     <div>
                         <img className='w-20 h-20 rounded-xl' src={singleApp.image} alt="" />
                     </div>

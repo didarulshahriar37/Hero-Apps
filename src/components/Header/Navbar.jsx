@@ -1,9 +1,11 @@
-import React from 'react';
 import gitImg from '../../assets/github.png';
 import heroLogo from '../../assets/logo.png';
-import { Link, Links } from 'react-router';
+import { Link, useLocation } from 'react-router';
 
 const Navbar = () => {
+
+    const location = useLocation();
+
     return (
         <div className="navbar bg-base-100 shadow-sm md:px-20 px-5">
             <div className="navbar-start">
@@ -14,18 +16,18 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold">
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/apps'>Apps</Link></li>
-                        <li><Link to='/installedApps'>Installation</Link></li>
+                        <li><Link to='/' className={location.pathname === '/' ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" : ""}>Home</Link></li>
+                        <li><Link to='/apps' className={location.pathname === '/apps' ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" : ""}>Apps</Link></li>
+                        <li><Link to='/installedApps' className={location.pathname === '/installedApps' ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" : ""}>Installation</Link></li>
                     </ul>
                 </div>
-                <a className="flex items-center gap-2 hover:cursor-pointer"><img className='w-10 h-10' src={heroLogo} alt="" /> <h3 className='text-xl text-transparent font-semibold bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>HERO.IO</h3></a>
+                <Link to='/'><div className="flex items-center gap-2 hover:cursor-pointer"><img className='w-10 h-10' src={heroLogo} alt="" /> <h3 className='text-xl text-transparent font-semibold bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>HERO.IO</h3></div></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-semibold">
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/apps'>Apps</Link></li>
-                    <li><Link to='/installedApps'>Installation</Link></li>
+                    <li><Link to='/' className={location.pathname === '/' ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" : ""}>Home</Link></li>
+                    <li><Link to='/apps' className={location.pathname === '/apps' ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" : ""}>Apps</Link></li>
+                    <li><Link to='/installedApps' className={location.pathname === '/installedApps' ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" : ""}>Installation</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">

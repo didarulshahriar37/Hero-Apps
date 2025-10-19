@@ -41,7 +41,7 @@ const Banner = () => {
                         </div>
                         <div className='text-white border-1 border-white md:border-none shadow-md md:shadow-none rounded-3xl py-4 px-20'>
                             <p className='mb-1 md:mb-4'>Active Apps</p>
-                            <h1 className='text-5xl font-bold'>132+</h1>
+                            <h1 className='text-5xl font-bold'>20+</h1>
                             <p className='mt-1 md:mt-4'>31 more will Launch</p>
                         </div>
                     </div>
