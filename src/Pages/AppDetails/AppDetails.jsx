@@ -55,6 +55,7 @@ const AppDetails = () => {
 
     return (
         <div className='bg-base-200'>
+            <title>Hero.IO - App details</title>
             <div className='p-5 md:p-20'>
                 <div className='flex flex-col items-center md:items-left md:flex-row gap-10 border-b-2 border-gray-300'>
                     <div>
@@ -95,8 +96,8 @@ const AppDetails = () => {
                         <ResponsiveContainer width="100%" aspect={1.95}>
                             <BarChart data={barChartData} layout='vertical' margin={{ top: 0, right: 30, left: 0, bottom: 0 }}
                             >
-                                <CartesianGrid stroke='none'/>
-                                <XAxis type='number'/>
+                                <CartesianGrid stroke='none' />
+                                <XAxis type='number' />
                                 <YAxis type='category' dataKey='name' />
                                 <Tooltip />
                                 <Legend />

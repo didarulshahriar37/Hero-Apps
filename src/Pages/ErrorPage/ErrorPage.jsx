@@ -8,6 +8,7 @@ import { Link } from 'react-router';
 const ErrorPage = () => {
     return (
         <div className='bg-base-200'>
+            <title>404 Error - Page not found</title>
             <Navbar></Navbar>
             <div className='md:p-20 p-5 text-center'>
                 <img className='mx-auto' src={errorImg} alt="" />

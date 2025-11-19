@@ -14,6 +14,7 @@ const AppsPage = () => {
 
     return (
         <div className='bg-base-200'>
+            <title>Hero.IO - Apps</title>
             <div className='p-5 md:p-20'>
                 <div className='text-center mb-10'>
                     <h2 className='text-2xl md:text-5xl font-semibold'>Our All Applications</h2>

@@ -9,6 +9,7 @@ const Home = () => {
 
     return (
         <div className='bg-base-200'>
+            <title>Hero.IO - Home</title>
             <Banner></Banner>
             <div className='p-5 md:p-20'>
                 <div className='text-center mb-5 md:mb-10'>
