@@ -47,3 +47,12 @@ HERO.IO - We Build Productive Apps
 [![React Spinners](https://img.shields.io/badge/React_Spinners-0.17.0-red?style=flat-square)](https://www.npmjs.com/package/react-spinners)  
 [![React Toastify](https://img.shields.io/badge/React_Toastify-11.0.5-yellow?style=flat-square)](https://fkhadra.github.io/react-toastify/introduction)  
 [![Recharts](https://img.shields.io/badge/Recharts-3.3.0-purple?style=flat-square)](https://recharts.org/)  
+
+---
+
+## Installation
+```bash
+> git clone https://github.com/didarulshahriar37/Hero-Apps.git
+> cd Hero-Apps
+> npm install
+> npm run dev
