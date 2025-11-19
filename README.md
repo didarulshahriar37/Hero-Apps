@@ -35,8 +35,6 @@ HERO.IO - We Build Productive Apps
 
 ## 🧩 Dependencies
 
-## 🧩 Dependencies
-
 ### Core Libraries
 [![React](https://img.shields.io/badge/React-19.1.1-blue?style=flat-square)](https://reactjs.org/)  
 [![React DOM](https://img.shields.io/badge/React_DOM-19.1.1-blue?style=flat-square)](https://reactjs.org/docs/react-dom.html)  
